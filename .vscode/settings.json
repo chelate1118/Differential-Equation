@@ -1,6 +1,7 @@
 {
     "editor.fontFamily": "Jetbrains Mono",
     "editor.lineHeight": 1.6,
+    "editor.fontLigatures": true,
     "workbench.colorTheme": "Default Dark+",
     "editor.bracketPairColorization.enabled": false,
     "python.linting.pylintArgs": ["--disable=C0111"],
@@ -57,5 +58,6 @@
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName"
-    }
+    },
+    "python.analysis.typeCheckingMode": "basic"
 }
