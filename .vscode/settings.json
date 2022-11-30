@@ -59,5 +59,10 @@
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName"
     },
-    "python.analysis.typeCheckingMode": "basic"
+    
+    "python.analysis.typeCheckingMode": "basic",
+
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedExpression": "none"
+    }
 }
